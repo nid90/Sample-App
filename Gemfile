@@ -6,6 +6,7 @@ gem 'sqlite3', '1.3.4'
 
 group :development do
   gem 'rspec-rails', '2.8.1'
+  gem 'rb-readline'
 end
 
 group :test do
