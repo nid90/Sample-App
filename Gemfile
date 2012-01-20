@@ -15,3 +15,10 @@ group :test do
   gem 'spork', '0.9.0.rc9'
 end
 
+group :assets do
+  gem 'therubyracer'
+  gem 'sass-rails', "  ~> 3.1.0"
+  gem 'coffee-rails', "~> 3.1.0"
+  gem 'uglifier'
+end
+

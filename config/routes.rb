@@ -1,7 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
-
-get "pages/home"
+  get "pages/home"
 
   get "pages/contact"
 
@@ -9,6 +7,8 @@ get "pages/home"
 
   get "pages/help"
 
+
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
